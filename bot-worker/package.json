@@ -1,0 +1,1 @@
+{"name": "workergram-bot", "version": "1.0.0", "description": "WorkerGram Telegram Bot - Cloudflare Worker", "main": "src/index.js", "type": "module", "scripts": {"dev": "wrangler dev", "deploy": "wrangler deploy"}}

@@ -1,0 +1,24 @@
+name = "workergram-bot"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+[vars]
+ADMIN_SECRET = "LCY001214lcy"
+SIGNIN_POINTS = "10"
+STREAK_BONUS = "20"
+STREAK_DAYS = "7"
+QUOTA_COST = "50"
+SHORTCODE_LEN = "6"
+MEMORY_MAX_ENTRIES = "5000"
+SIGNIN_COOLDOWN_MS = "60000"
+WRITE_INTERVAL_MS = "5000"
+ALLOW_ALL_GROUPS = "true"
+
+# Download Worker URL (用于生成文件短链接)
+DOWNLOAD_WORKER_URL = ""
+DOWNLOAD_WORKER_SECRET = ""
+
+[[d1_databases]]
+binding = "DB"
+database_name = "workergram-bot"
+database_id = ""

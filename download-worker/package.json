@@ -1,0 +1,1 @@
+{"name": "workergram-download", "version": "1.0.0", "description": "WorkerGram File Download Service - Cloudflare Worker", "main": "src/index.js", "type": "module", "scripts": {"dev": "wrangler dev", "deploy": "wrangler deploy"}}

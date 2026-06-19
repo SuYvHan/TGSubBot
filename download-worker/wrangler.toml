@@ -1,0 +1,16 @@
+name = "workergram-download"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+[vars]
+MAX_FILE_SIZE = "20971520"
+ADMIN_SECRET = "LCY001214lcy"
+CLEANUP_DAYS = "30"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "workergram-download"
+database_id = ""
+
+[triggers]
+crons = ["0 3 * * *"]
